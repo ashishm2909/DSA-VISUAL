@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import helmet from "helmet";
 import path from "path";
 import { fileURLToPath } from "url";
 import { lessonList, lessonsById, categories, defaultGraph } from "./data/lessons.js";
@@ -8,8 +9,12 @@ import { runLesson } from "./algorithms/index.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 const PORT = process.env.PORT || 4000;
+const clientOrigins = process.env.CLIENT_ORIGIN
+  ? process.env.CLIENT_ORIGIN.split(",").map((origin) => origin.trim()).filter(Boolean)
+  : ["http://localhost:5173"];
 
-app.use(cors());
+app.use(helmet());
+app.use(cors({ origin: clientOrigins }));
 app.use(express.json({ limit: "1mb" }));
 
 // Catalog (navigation + lesson metadata).
