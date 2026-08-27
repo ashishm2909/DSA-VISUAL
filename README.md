@@ -5,6 +5,9 @@ and algorithms through animation, pseudocode, and state changes. Instead of only
 reading a finished implementation, learners can watch each operation happen and
 connect the code to the result on screen.
 
+![Uploading dsa visual.png…]()
+
+
 ## Why Use This Project?
 
 - **Makes abstract ideas visible:** Arrays, linked lists, stacks, queues, graphs,
