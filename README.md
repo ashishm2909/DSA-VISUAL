@@ -5,7 +5,7 @@ and algorithms through animation, pseudocode, and state changes. Instead of only
 reading a finished implementation, learners can watch each operation happen and
 connect the code to the result on screen.
 
-![Uploading dsa visual.png…]()
+<img width="1408" height="768" alt="dsa visual" src="https://github.com/user-attachments/assets/73216038-a8b4-4f9f-99c0-ffc34dd9c1c3" />
 
 
 ## Why Use This Project?
