@@ -39,6 +39,21 @@ Review 17 reusable approaches, including Sliding Window, Two Pointers, Fast and
 Slow Pointers, Merge Intervals, Cyclic Sort, Tree BFS/DFS, Backtracking, Modified
 Binary Search, Top K Elements, Topological Sort, Union Find, and Trie.
 
+## Run Locally
+
+Requirements: Node.js 18 or newer and npm 9 or newer.
+
+From the repository root, install dependencies and start the frontend and API:
+
+```bash
+cd "DSA VISUAL"
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser. The API runs
+on `http://localhost:4000` and is proxied by the frontend during development.
+
 ## How To Use It
 
 1. Start the application by following the setup instructions in
